@@ -1,0 +1,83 @@
+/* General styles for body and text */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #cdcbcb;
+    background: url("C:/Users/LENOVO/Downloads/wild.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  h1, h2 {
+    color: #f1f1f1;
+  }
+  
+  /* Header Styles */
+  .main-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+  }
+  
+  .main-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .main-header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Blog Content Section */
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .post {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .post h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .post p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
